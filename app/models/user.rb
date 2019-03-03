@@ -1,6 +1,5 @@
-# frozen_string_literal: true
-
-# TODO write documentation to User model
 class User < ApplicationRecord
-  has_secure_password
+  devise :database_authenticatable, :registerable, :recoverable, :rememberable,
+         :validatable, :confirmable, :lockable, :timeoutable, :trackable,
+         :omniauthable
 end

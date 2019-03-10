@@ -9,6 +9,7 @@ gem 'awesome_print', '~> 1.8.0'
 gem 'bcrypt', '~> 3.1.12'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'devise', '~> 4.6.1'
+gem 'devise-jwt', '~> 0.5.8'
 gem 'jwt', '~> 2.1.0'
 gem 'omniauth', '~> 1.9.0'
 gem 'pg', '>= 0.18', '< 2.0'

@@ -9,3 +9,5 @@
 /config/master.key
 .idea/
 doc/
+
+Gemfile\.lock
